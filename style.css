@@ -165,11 +165,14 @@ p {
 .container-icons img {
   filter: grayscale(0);
   transition: filter 0.5s;
+  cursor: pointer;
+  transition: transform 1s;
 }
 
 .container-icons img:hover {
   cursor: pointer;
   filter: grayscale(100%);
+  transform: scale(1.2);
 }
 
 /* Projetos */
