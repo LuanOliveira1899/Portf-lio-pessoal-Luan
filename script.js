@@ -7,6 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+
+
 // Slider de Depoimentos //
 
 const prevButton = document.querySelector(".prev-testimonial");
